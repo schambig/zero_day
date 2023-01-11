@@ -6,7 +6,7 @@
 
 # Git <!--@schambig-->
 
-[Description](#description) • [Resources](#resources) • <!--@schambig-->[File Structure](#file-structure) • [Usage](#usage)
+[Description](#description) • [Resources](#resources) • <!--@schambig-->[Additional Info](#additional-info) • [Project's Tasks](#projects-tasks)
 
 ---
 
@@ -75,38 +75,16 @@ $ git push origin main
 
 All the required tasks will be inside the [git](https://github.com/schambig/zero_day/tree/master/git) folder of the project, you can read the requirements of every task in the table below:
 
-| Task number | Description |
+| Task | Description |
 | --- | --- |
-| <pre>1. Repo-session</pre><!--@schambig--> |  |
+| <pre>1. Repo-session</pre><!--@schambig--> | Create a new directory called `git` in your repo.<br>Make sure you include a not empty `README.md` in your directory:<br>• at the root of your repository<br>• AND in the directory `git`<br>And important part: Make sure your commit and push your code to Github - otherwise the Checker will always fail. |
+| <pre>2. Coding fury road</pre><!--@schambig--> | For the moment we have an empty project directory containing only a `README.md`. It’s time to code!<br>• Create these directories at the root of your project: `bash`, `c`, `js`<br>• Create these empty files:<br>&nbsp;&nbsp;&nbsp;&nbsp;- `c/c_is_fun.c`<br>&nbsp;&nbsp;&nbsp;&nbsp;- `js/main.js`<br>&nbsp;&nbsp;&nbsp;&nbsp;- `js/index.js`<br>• Create a file `bash/best` with these two lines inside: `#!/bin/bash` and `echo "Best"`<br>• Create a file `bash/school` with these two lines inside: `#!/bin/bash` and `echo "School"`<br>• Add all these new files to git<br>• Commit your changes (message: “Starting to code today, so cool”) and push to the remote server |
+| <pre>3. Collaboration is the base of a company</pre><!--@schambig--> | A branch is like a copy of your project. It’s used mainly for:<br>• adding a feature in development<br>• collaborating on the same project with other developers<br>• not breaking your entire repository<br>• not upsetting your co-workers<br>The purpose of a branch is to isolate your work from the main code base of your project and/or from your co-workers’ work.<br>For this project, create a branch `update_script` and in this branch:<br>• Create an empty file named `bash/98`<br>• Update `bash/best` by replacing `echo "Best"` with `echo "Best School"`<br>• Update `bash/school` by replacing `echo "School"` with `echo "The school is open!"`<br>• Add and commit these changes (message: “My personal work”)<br>• Push this new branch [Tips](https://docs.github.com/en/get-started/using-git/pushing-commits-to-a-remote-repository)<br>Perfect! You did an amazing update in your project and it’s isolated correctly from the main branch.<br>Ho wait, your manager needs a quick fix in your project and it needs to be deployed now:<br>• Change branch to `main`<br>• Update the file `bash/best` by replacing `echo "Best"` with `echo "This School is so cool!"`<br>• Delete the directory `js`<br>• Commit your changes (message: “Hot fix”) and push to the origin<br>Ouf, hot fix is done! |
 | <pre></pre><!--@schambig--> |  |
 | <pre></pre><!--@schambig--> |  |
 | <pre></pre><!--@schambig--> |  |
-| <pre></pre><!--@schambig--> |  |
-| <pre></pre><!--@schambig--> |  |
-
 <!-- <pre><br><br></pre> • <br>•-->
-
-## Usage<!--@schambig-->
-
-To try this project, first clone the repository to your machine :
-
-```
-$ git clone https://github.com/schambig/holbertonschool-higher_level_programming.git
-```
-
-Then, go to the project directory:
-
-```
-$ cd 
-```
-
-Finally, you can execute the scripts:
-
-```
-$ ./[FILENAME]
-```
-
-
+<br>•
 <p align="center">
   <img alt="schambig" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=60&section=footer"/>
 </p>
