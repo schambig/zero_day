@@ -44,28 +44,46 @@ Important concepts to help you understand this project:
 * [Resources to learn Git](https://docs.github.com/en/get-started/quickstart/set-up-git)
 * [About READMEs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)
 * [How to write a Git commit message](https://cbea.ms/git-commit/)
+* [Learning branching](https://learngitbranching.js.org/?locale=es_AR)
+* [Effective pull requests and other good practices for teams using GitHub](https://codeinthehole.com/tips/pull-requests-and-other-good-practices-for-teams-using-github/)
 
+## Additional Info<!--@schambig-->
 
-## File structure<!--@schambig-->
+Install `git`
 
-This table contains a brief description of the working files of the project, click on the names to get the source code.
+* If `git` is not already installed on your terminal:
 
-* All these files were interpreted on Ubuntu 20.04 LTS using `node` (version 14.x)
-* This code is `semistandard` compliant (version 16.x.x). [Rules of Standard](https://standardjs.com/rules.html) + [semicolons on top](https://github.com/standard/semistandard). Also as reference: [AirBnB style](https://github.com/airbnb/javascript)
+```
+$ sudo apt-get update
+$ sudo apt-get upgrade
+$ sudo apt-get install git
+```
 
-| Filename | Description/Task |
+Basic usage
+
+* At the end of this project you should be able to reproduce and understand these command lines:
+
+```
+$ git clone <repo>
+$ touch test
+$ git add test
+$ git commit -m "Initial commit"
+$ git push origin main
+```
+
+## Project's Tasks<!--@schambig-->
+
+All the required tasks will be inside the [git](https://github.com/schambig/zero_day/tree/master/git) folder of the project, you can read the requirements of every task in the table below:
+
+| Task number | Description |
 | --- | --- |
-| <pre>[]()</pre><!--@schambig--> |  |
-| <pre>[]()</pre><!--@schambig--> |  |
-| <pre>[]()</pre><!--@schambig--> |  |
-| <pre>[]()</pre><!--@schambig--> |  |
-| <pre>[]()</pre><!--@schambig--> |  |
-| <pre>[]()</pre><!--@schambig--> |  |
-| <pre>[]()</pre><!--@schambig--> |  |
-| <pre>[]()</pre><!--@schambig--> |  |
-| <pre>[]()</pre><!--@schambig--> |  |
-| <pre>[]()</pre><!--@schambig--> |  |
-| <pre>[]()</pre><!--@schambig--> |  |
+| <pre>1. Repo-session</pre><!--@schambig--> |  |
+| <pre></pre><!--@schambig--> |  |
+| <pre></pre><!--@schambig--> |  |
+| <pre></pre><!--@schambig--> |  |
+| <pre></pre><!--@schambig--> |  |
+| <pre></pre><!--@schambig--> |  |
+
 <!-- <pre><br><br></pre> • <br>•-->
 
 ## Usage<!--@schambig-->
