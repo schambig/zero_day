@@ -41,9 +41,9 @@ After this project I was able to [explain to anyone](https://fs.blog/feynman-lea
 
 Important concepts to help you understand this project:
 
-* []()
-* []()
-* []()
+* [Resources to learn Git](https://docs.github.com/en/get-started/quickstart/set-up-git)
+* [About READMEs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)
+* [How to write a Git commit message](https://cbea.ms/git-commit/)
 
 
 ## File structure<!--@schambig-->
